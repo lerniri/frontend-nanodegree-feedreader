@@ -1,7 +1,7 @@
 <h1>RSS Feed Testing</h1> 
 
 <p>RSS feed reader uses Google Feed Reader API to grap RSS feeds as JSON object. </p>
-<p>Link to Demo <a href="http://lerniri.github.io/feedreader-testing"></a></p>
+<p>Link to Demo <a href="http://lerniri.github.io/feedreader-testing"></a>http://lerniri.github.io/feedreader-testing</p>
 <h2>Current functionality</h2>
 <ul>
 	<li>RSS Feeds list is managed by JSON object</li>
