@@ -1,3 +1,81 @@
+<h1>RSS Feed Testing</h1> 
+
+<p>RSS feed reader uses Google Feed Reader API to grap RSS feeds as JSON object. </p>
+
+<h2>Current functionality</h2>
+<ul>
+	<li>RSS Feeds list is managed by JSON object</li>
+	<li>Google Feed Reader API is utilized to get feed content</li>
+	<li>RSS Feeds menu is holding the list of all available feeds</li>
+	<li>User may choose feed from the menu and browse loaded entries</li>
+</ul>
+
+
+<h3>Test Suits</h3>
+<h4>RSS Feeds</h4>
+<ul>
+	<li>
+		<h5>Feeds are defined</h5>
+		<p><strong>Expected:<strong> rss feeds are defined</p>
+	</li>
+	<li>
+		<h5>Feed url is defined</h5>
+		<p><strong>Expected:<strong> feed url is present</p>
+	</li>
+</ul>
+<h4>The Menu</h4>
+<ul>
+	<li>
+		<h5>Menu is hidden by default</h5>
+		<p>Expected: Menu should be hidden upon page load</p>
+	</li>
+	<li>
+		<h5>Menu visibility changes on click</h5>
+		<p><strong>Expected: </strong> Menu visibility should be toggled upon menu button click</p>
+	</li>
+
+</ul>
+<h4>Initial Entries</h4>
+<ul>
+	<li>
+		<h5>New Feed Selection</h5>
+		<p><strong>Expected:</strong>Feed container should have entries</p>
+	</li>
+</ul>
+<h4>New Feed Selection</h4>
+<ul>
+	<li>
+		<h5>Feed content changes</h5>
+		<p><strong>Expected:</strong>Feed content should change upon feed selection</p>
+	</li>
+</ul>
+
+<h4>Feed Entries</h4>
+<ul>
+	<li>
+		<h5>Feed entry has valid href value</h5>
+		<p><strong>Expected:</strong>Feed entry should have value link defined</p>
+	</li>
+</ul>
+
+<h2>Future functionality</h2>
+<ul>
+	<li>User may add / delete rss feeds from the menu</li>
+</ul>
+<h3>Test Suits</h3>
+<h4>RSS Feed Addition/Deletion</h4>
+<ul>
+	<li>
+		<h5>New feed can be added</h5>
+		<p><strong>Expected: </strong> User should be able to add new feed</p>
+	</li>
+	<li>
+		<h5>Feed can be deleted</h5>
+		<p><strong>Expected: </strong> User should be able to delete existing feed</p>
+	</li>
+</ul>
+
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
