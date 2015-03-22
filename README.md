@@ -59,9 +59,9 @@
 </ol>
 
 <h2>Future functionality</h2>
-<ol>
+<ul>
 	<li>User may add / delete rss feeds from the menu</li>
-</ol>
+</ul>
 <h3>Test Suits</h3>
 <h4>RSS Feed Addition/Deletion</h4>
 <ol>
