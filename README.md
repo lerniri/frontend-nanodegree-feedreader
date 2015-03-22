@@ -13,18 +13,18 @@
 
 <h3>Test Suits</h3>
 <h4>RSS Feeds</h4>
-<ul>
+<ol>
 	<li>
 		<h5>Feeds are defined</h5>
-		<p><strong>Expected:<strong> rss feeds are defined</p>
+		<p><strong>Expected:</strong> rss feeds are defined</p>
 	</li>
 	<li>
 		<h5>Feed url is defined</h5>
-		<p><strong>Expected:<strong> feed url is present</p>
+		<p><strong>Expected:</strong> feed url is present</p>
 	</li>
-</ul>
+</ol>
 <h4>The Menu</h4>
-<ul>
+<ol>
 	<li>
 		<h5>Menu is hidden by default</h5>
 		<p>Expected: Menu should be hidden upon page load</p>
@@ -34,37 +34,37 @@
 		<p><strong>Expected: </strong> Menu visibility should be toggled upon menu button click</p>
 	</li>
 
-</ul>
+</ol>
 <h4>Initial Entries</h4>
-<ul>
+<ol>
 	<li>
 		<h5>New Feed Selection</h5>
 		<p><strong>Expected:</strong>Feed container should have entries</p>
 	</li>
-</ul>
+</ol>
 <h4>New Feed Selection</h4>
-<ul>
+<ol>
 	<li>
 		<h5>Feed content changes</h5>
 		<p><strong>Expected:</strong>Feed content should change upon feed selection</p>
 	</li>
-</ul>
+</ol>
 
 <h4>Feed Entries</h4>
-<ul>
+<ol>
 	<li>
 		<h5>Feed entry has valid href value</h5>
 		<p><strong>Expected:</strong>Feed entry should have value link defined</p>
 	</li>
-</ul>
+</ol>
 
 <h2>Future functionality</h2>
-<ul>
+<ol>
 	<li>User may add / delete rss feeds from the menu</li>
-</ul>
+</ol>
 <h3>Test Suits</h3>
 <h4>RSS Feed Addition/Deletion</h4>
-<ul>
+<ol>
 	<li>
 		<h5>New feed can be added</h5>
 		<p><strong>Expected: </strong> User should be able to add new feed</p>
@@ -73,7 +73,7 @@
 		<h5>Feed can be deleted</h5>
 		<p><strong>Expected: </strong> User should be able to delete existing feed</p>
 	</li>
-</ul>
+</ol>
 
 
 # Project Overview
